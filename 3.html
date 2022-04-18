@@ -1,0 +1,43 @@
+<!-- Creating a Contact us form -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Form</title>
+</head>
+<body>
+    <div class="container">
+       
+        <form name="Contact Us" action="a" method="post">
+        <table class="table" border="1" cellspacing="10" cellpadding="5">
+          <th colspan="4"> <h3>Contact Us</h3></th>
+          <tr>
+          <td>First Name<td>
+          <input type="text" id="firstname" name="firstname" placeholder="Enter First Name"/>
+          </tr>
+          <tr>
+          <td>Last Name</td> 
+          <td><input type="text" id="lastname" name="lastname" placeholder="Enter Last Name"/></td>
+          </tr>
+          <tr>
+            <td>Mobile Number</td>
+            <td><input type="number" max="10" id="Mobile Number" name="mobileNumber" placeholder="Enter Mobile Number"></td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td><input type="email" id="email" name="email" placeholder="Enter Email"></td>
+          </tr>
+          <tr>
+            <td>Query</td>
+            <td><textarea type="text" id="query" name="query" placeholder="Enter Query"></textarea></td>
+          </tr>
+         
+        </table>
+        </form>
+    </br>
+        <input type="submit" value="Submit">
+    </div>
+</body>
+</html>
