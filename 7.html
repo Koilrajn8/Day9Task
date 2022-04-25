@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a form</title>
+    <link rel="stylesheet" href="7.css">
+</head>
+<body>
+    <div style="height:100%;width:100%">
+        <p class="title">Yes! I want to subscribe to Mag-O-Zine</p>
+    <form class="card" method="post">
+        <input type="text" name="fname">
+        <input type="text" name="lname"></br>
+        <label for="fname">First name</label>
+        <label for="lname" class="lname">Last name</label></br>
+        </br>
+        <input type="text" name="address"></br>
+        <label for="address">Address</label></br></br>
+        <input type="text" name="city">
+        <input type="text" name="state">
+        <input type="text" name="zip"></br>
+        <label for="city">City</label>
+        <label for="state"><span class="State">State</span></label>
+        <label for="zip">Zip</label></br>
+        <p>Subscribe for: <input type="checkbox" name="subscribe"><label for="subscribe">1 year ($19.95)</label> <input type="checkbox" name="subscribe"><label for="subscribe">2 years ($19.95)</label><p>
+        <p>Send me more information about: </p>
+        <input type="checkbox" name="about"><label for="about">Computer-Zine</label></br>
+        <input type="checkbox" name="about"><label for="about">Fishing-Zine</label></br>
+        <input type="checkbox" name="about"><label for="about">cat-O-Zine</label>
+    </form>
+    </div>
+</body>
+</html>
